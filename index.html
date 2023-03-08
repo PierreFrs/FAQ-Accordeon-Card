@@ -16,63 +16,95 @@
 </head>
 <body>
   <div class="card">
-    <div class="image-container"></div>
-    <h1 class="title">FAQ</h1>
-    <div class="accordion-container">
-      <div class="accordion">
-        <div class="accordion__intro">
-          <h4>How many team members can I invite?</h4>
-          <img src="./images/icon-arrow-down.svg" alt="arrow down icon">
-        </div>
-        <div class="accordion__content">
-          <p>You can invite up to 2 additional users on the Free plan. There is no limit on 
-            team members for the Premium plan.</p>
-        </div>
+    <!-- Images -->
+    <div class="image-container">
+      <div class="image-main">
+        <picture class="woman-illustration">
+          <source media="(max-width: 1109px )" srcset="./images/illustration-woman-online-mobile.svg">
+          <source media="(min-width: 1110px )" srcset="./images/illustration-woman-online-desktop.svg">
+          <img src="./images/illustration-woman-online-desktop.svg" alt="illustration of a woman in front of a screen">
+        </picture>
+        <picture class="shadow-illustration">
+          <source media="(max-width: 1109px )" srcset="./images/bg-pattern-mobile.svg">
+          <source media="(min-width: 1110px )" srcset="./images/bg-pattern-desktop.svg">
+          <img src="./images/bg-pattern-desktop.svg" alt="box shadow">
+        </picture>
       </div>
-      <div class="accordion">
-        <div class="accordion__intro">
-          <h4>What is the maximum file upload size?</h4>
-          <img src="./images/icon-arrow-down.svg" alt="arrow down icon">
-        </div>
-        <div class="accordion__content">
-          <p>No more than 2GB. All files in your account must fit your allotted storage space.</p>
-        </div>
-      </div>
-      <div class="accordion">
-        <div class="accordion__intro">
-          <h4>How do I reset my password?</h4>
-          <img src="./images/icon-arrow-down.svg" alt="arrow down icon">
-        </div>
-        <div class="accordion__content">
-          <p>Click “Forgot password” from the login page or “Change password” from your profile page.
-            A reset link will be emailed to you.</p>
-        </div>
-      </div>
-      <div class="accordion">
-        <div class="accordion__intro">
-          <h4>Can I cancel my subscription?</h4>
-          <img src="./images/icon-arrow-down.svg" alt="arrow down icon">
-        </div>
-        <div class="accordion__content">
-          <p>Yes! Send us a message and we’ll process your request no questions asked.</p>
-        </div>
-      </div>
-      <div class="accordion">
-        <div class="accordion__intro">
-          <h4>Do you provide additional support?</h4>
-          <img src="./images/icon-arrow-down.svg" alt="arrow down icon">
-        </div>
-        <div class="accordion__content">
-          <p>Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
-        </div>
-      </div>
-    </div>
-  </div>
 
+      <img src="./images/illustration-box-desktop.svg" alt="" class="box-illustration">
+
+    </div>
+    <!-- Text -->
+    <div class="text-container">
+      <h1 class="title">FAQ</h1>
+      <ul class="accordion-container">
+        <li class="accordion">
+          <div class="accordion__intro">
+            <h4 class="accordion-intro-title">How many team members can I invite?</h4>
+            <div class="arrow-container">
+              <img class="arrow" src="./images/icon-arrow-down.svg" alt="arrow down icon">
+            </div>
+          </div>
+          <div class="accordion__content">
+            <p>You can invite up to 2 additional users on the Free plan. There is no limit on 
+              team members for the Premium plan.</p>
+          </div>
+        </li>
+        <li class="accordion">
+          <div class="accordion__intro">
+            <h4 class="accordion-intro-title">What is the maximum file upload size?</h4>
+            <div class="arrow-container">
+              <img src="./images/icon-arrow-down.svg" alt="arrow down icon">
+            </div>
+          </div>
+          <div class="accordion__content">
+            <p>No more than 2GB. All files in your account must fit your allotted storage space.</p>
+          </div>
+        </li>
+        <li class="accordion">
+          <div class="accordion__intro">
+            <h4 class="accordion-intro-title">How do I reset my password?</h4>
+            <div class="arrow-container">
+              <img src="./images/icon-arrow-down.svg" alt="arrow down icon">
+            </div>
+          </div>
+          <div class="accordion__content">
+            <p>Click “Forgot password” from the login page or “Change password” from your profile page.
+              A reset link will be emailed to you.</p>
+          </div>
+        </li>
+        <li class="accordion">
+          <div class="accordion__intro">
+            <h4 class="accordion-intro-title">Can I cancel my subscription?</h4>
+            <div class="arrow-container">
+              <img src="./images/icon-arrow-down.svg" alt="arrow down icon">
+            </div>
+          </div>
+          <div class="accordion__content">
+            <p>Yes! Send us a message and we’ll process your request no questions asked.</p>
+          </div>
+        </li>
+        <li class="accordion">
+          <div class="accordion__intro">
+            <h4 class="accordion-intro-title">Do you provide additional support?</h4>
+            <div class="arrow-container">
+              <img src="./images/icon-arrow-down.svg" alt="arrow down icon">
+            </div>
+          </div>
+          <div class="accordion__content">
+            <p>Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+    
+  </div>
+  <!-- Attribution -->
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Pierre Frs</a>.
   </div>
+  <!-- Script -->
   <script src="script.js"></script>
 </body>
 </html>
