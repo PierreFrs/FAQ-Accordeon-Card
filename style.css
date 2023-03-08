@@ -134,7 +134,7 @@ picture.shadow-illustration img {
     color: var(--Soft-red);
 }
 
-.accordion__intro:is(.active) > .accordion-intro-title {
+.accordion:is(.active) > .accordion__intro > .accordion-intro-title {
     font-weight: 700;
 }
 
@@ -142,7 +142,7 @@ picture.shadow-illustration img {
     transition: transform 250ms;
 }
 
-.accordion__intro:is(.active) > .arrow-container > .arrow {
+.accordion:is(.active) > .accordion__intro > .arrow-container > .arrow {
     transform: rotate(180deg);
 }
 
@@ -150,10 +150,10 @@ picture.shadow-illustration img {
     max-height: 0;
     overflow: hidden;
     transition: max-height 250ms ease, margin-top 250ms;
-    color: var(--Light-grayish-blue);
+    color: var(--Dark-grayish-blue);
 }
 
-.accordion__intro:is(.active) > .accordion__content {
+.accordion:is(.active) > .accordion__content {
     margin-top: 1.1rem;
     display: block;
     max-height: fit-content;
